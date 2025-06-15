@@ -1,27 +1,27 @@
-# 📊 Financial Forecasting Dashboard using Power BI
+#  Financial Forecasting Dashboard using Power BI
 
 This project presents an interactive **Financial Forecasting Dashboard** developed using Microsoft Power BI. It focuses on visual analytics, forecasting, and KPI-based insights for business performance.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Financial forecasting is a key element in business decision-making. This dashboard uses historical data to forecast future trends in sales, revenue, and profitability. Power BI's powerful visualization and data modeling capabilities are used to convert complex data into intuitive and actionable dashboards.
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
-- 🔄 **Time-Series Forecasting** using historical sales and profit data  
-- 🧮 **DAX Calculations** to derive KPIs like Total Revenue, Profit Margin, Forecasted Revenue  
-- 🧹 **Power Query Data Cleaning** and transformation pipeline  
-- 📈 **Interactive Visuals** including slicers, bar/line charts, country and product filters  
-- 🌍 **Regional Analysis** of profitability and returns  
-- 💡 **Actionable Insights** for decision-making and strategy optimization  
+-  **Time-Series Forecasting** using historical sales and profit data  
+-  **DAX Calculations** to derive KPIs like Total Revenue, Profit Margin, Forecasted Revenue  
+-  **Power Query Data Cleaning** and transformation pipeline  
+-  **Interactive Visuals** including slicers, bar/line charts, country and product filters  
+-  **Regional Analysis** of profitability and returns  
+-  **Actionable Insights** for decision-making and strategy optimization  
 
 ---
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 
 - **Microsoft Power BI Desktop**  
 - **DAX (Data Analysis Expressions)**  
@@ -30,20 +30,20 @@ Financial forecasting is a key element in business decision-making. This dashboa
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
-📁 Financial-Forecasting-Dashboard
+ Financial-Forecasting-Dashboard
 │
-├── 📄 Financial_Forecasting_Report.docx         # Detailed report of the project
-├── 📊 Financial_Forecasting_Dashboard.pbix      # Power BI dashboard file
-├── 📈 financial_data.xlsx                        # Dataset used for analysis
-└── 📖 README.md                                  # Project summary and instructions
+├──  Financial_Forecasting_Report.docx         # Detailed report of the project
+├──  Financial_Forecasting_Dashboard.pbix      # Power BI dashboard file
+├──  financial_data.xlsx                        # Dataset used for analysis
+└──  README.md                                  # Project summary and instructions
 ```
 
 ---
 
-## 📈 DAX Formulas Used
+##  DAX Formulas Used
 
 ```DAX
 Total Profit = SUM(financials[Profit])
@@ -54,7 +54,7 @@ Forecasted Revenue = [Total Revenue] * 1.10
 
 ---
 
-## 📌 Key Insights
+##  Key Insights
 
 - **Paseo** is the best-selling product with a total sales value of **₹33.01M**.  
 - **USA** leads in profitability, with France closely following.  
@@ -63,16 +63,16 @@ Forecasted Revenue = [Total Revenue] * 1.10
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
-- 🤖 Integrate **machine learning models** for predictive analytics  
-- 🌐 Add **geospatial visualizations** using custom Power BI maps  
-- ⏱️ Enable **real-time data refresh** via Power BI Service  
-- 📣 Implement **custom alerts** for key metric changes  
+-  Integrate **machine learning models** for predictive analytics  
+-  Add **geospatial visualizations** using custom Power BI maps  
+-  Enable **real-time data refresh** via Power BI Service  
+-  Implement **custom alerts** for key metric changes  
 
 ---
 
-## 📚 Learnings
+##  Learnings
 
 - Real-world application of Power BI in business analytics  
 - Importance of clean data modeling for effective forecasting  
